@@ -27,12 +27,8 @@ div.whole
   max-width: 1000px;
   min-height: 100vh;
   min-width: 500px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 5px 0px 5px 0px;
+  margin: 10px 10% 10px 10%;
   background-color: #C5CAE9;
 }
 /*Define title box*/
@@ -41,8 +37,7 @@ div.title
   height: 100%;
   text-align: center;
   background-color: #1A237E;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 0px 5px 0px;
   border-radius: 20px;
   margin: 10px;
 }
@@ -53,8 +48,7 @@ div.toc
   color: white;
   width:200px;
   padding-right: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 0px 10px 0px 10px;
   border-radius: 5px;
   float:left;
 }
@@ -63,13 +57,9 @@ div.container
 {
   background-color: #3F51B5;
   color:rgb(232, 232, 232);
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding: 10px 10px 5px 10px;
   border-radius: 5px;
-  margin-left: 220px;
-  margin-right: 10px;
+  margin: 0px 10px 0px 220px;
 }
 /*Define content box (composed of header, subheaders and contents)*/
 div.contentbox
@@ -87,8 +77,7 @@ div.header
   font-size: 20px;
   font-weight: bold;
   text-decoration: underline;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 10px 0px 10px 0px;
 }
 /*Define subheader box inside content box*/
 div.subheader
@@ -96,9 +85,7 @@ div.subheader
   font-family: arial;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
-  margin-top: 10px; 
-  margin-left:5px;
+  margin: 10px 0px 10px 5px;
 }
 /*Define content inside content box*/
 div.content
@@ -115,53 +102,31 @@ h1 {
 /*******************
 [START] Change link colors
 *******************/
+  a{
+  	color: white;
+  }
   /* unvisited link */
   a:link {
-      color: white;
-      text-decoration: none;
-  }
-
-  /* visited link */
-  a:visited {
-      color: white;
       text-decoration: none;
   }
 
   /* mouse over link */
   a:hover {
-      color: white;
       text-decoration: underline;
   }
 
-  /* selected link */
-  a:active {
-      color: white;
-      text-decoration: none;
+  a.content{
+	color: #304FFE;
   }
-  /* unvisited link */
+    /* unvisited link */
   a.content:link {
-      color: #304FFE;
-      text-decoration: none;
-  }
-
-  /* visited link */
-  a.content:visited {
-      color: #304FFE;
       text-decoration: none;
   }
 
   /* mouse over link */
   a.content:hover {
-      color: #304FFE;
       text-decoration: underline;
   }
-
-  /* selected link */
-  a.content:active {
-      color: #304FFE;
-      text-decoration: none;
-  }
-
 /*******************
 [END] Change link colors
 *******************/
